@@ -1,0 +1,28 @@
+{
+  "name": "ten10",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "test:ui": "playwright test --ui",
+    "test:debug": "playwright test --debug",
+    "test:headed": "playwright test --headed",
+    "test:chrome": "playwright test --project=chromium",
+    "test:firefox": "playwright test --project=firefox",
+    "test:webkit": "playwright test --project=webkit",
+    "test:calculator": "playwright test interest-calculation.spec.ts form-validation.spec.ts responsive-design.spec.ts",
+    "test:validation": "playwright test form-validation.spec.ts",
+    "test:responsive": "playwright test responsive-design.spec.ts",
+    "test:functionality": "playwright test interest-calculation.spec.ts",
+    "report": "playwright show-report",
+    "install-browsers": "playwright install"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@playwright/test": "^1.54.2",
+    "@types/node": "^24.2.1"
+  }
+}
