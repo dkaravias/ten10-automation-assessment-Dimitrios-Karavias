@@ -2,11 +2,11 @@
 
 
 ## Approach
-The main objective was to demonstrate how a comprehensive test framework can be created in a shareable, repeatable manner using Cursor with Claude-4 sonnet. Playright's default Cursor rules combined with the 2 AI-generated prompts are used to enable 1-shot Project Generation. <br>
-I have also included the full Copilot conversation to demonstrate my though process. <br>
+My main objective was to demonstrate how a comprehensive test framework can be created in a shareable, repeatable manner using Cursor with Claude-4 sonnet. Playright's default Cursor rules combined with the 2 AI-generated prompts are used to achieve 1-shot Project Generation. <br>
+I have also included the full Copilot conversation to demonstrate my thought process. <br>
 ### Current state
 Only the first 2 Interest Calculation tests are passing. I would need 2-3 more hours to troubleshoot the locators for the remainder, as they have been inferred from the Requirements. <br>
-Given more time I also would've invested more into giving better examples to the AI in order to generate better prompts. This would save a lot of trial and error down the line, as having a conversation tends to produce lower-quality results compared to clear upfront specifications, ideally by example.
+Given more time, I also would've invested more into providing better examples to the AI to generate better prompts. This would save a lot of trial and error down the line, as having a conversation tends to produce lower-quality results compared to clear upfront specifications, ideally by example.
 
 ## 🏗️ Architecture
 
